@@ -1,0 +1,23 @@
+/*
+Theme Name: Twenty Twenty-Four Child
+Author: Quam Bankole
+Author URI: http://assign2-100907164.local
+Template: twentytwentyfour
+Description: Twenty Twenty-Four is designed to be flexible and versatile.
+Requires at least: 6.4
+Tested up to: 6.6
+Requires PHP: 7.0
+Version: 1.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwentyfour-child
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style
+*/
+
+body {
+    background-color: rgb(224, 106, 51);
+}
+
+h1, h2, h3, p {
+    color: rgb(27, 202, 135);
+}

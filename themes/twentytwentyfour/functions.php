@@ -36,11 +36,11 @@ if ( ! function_exists( 'twentytwentyfour_block_styles' ) ) :
 				}
 
 				.is-style-arrow-icon-details summary {
-					list-style-type: "\2193\00a0\00a0\00a0";
+					list-style-type: "\2193 \00a0\00a0";
 				}
 
 				.is-style-arrow-icon-details[open]>summary {
-					list-style-type: "\2192\00a0\00a0\00a0";
+					list-style-type: "\2192 \00a0\00a0";
 				}',
 			)
 		);
@@ -78,7 +78,7 @@ if ( ! function_exists( 'twentytwentyfour_block_styles' ) ) :
 				 */
 				'inline_style' => '
 				ul.is-style-checkmark-list {
-					list-style-type: "\2713";
+					list-style-type: "\2713 ";
 				}
 
 				ul.is-style-checkmark-list li {
@@ -170,9 +170,9 @@ if ( ! function_exists( 'twentytwentyfour_block_stylesheets' ) ) :
 			'core/button',
 			array(
 				'handle' => 'twentytwentyfour-button-style-outline',
-				'src'    => get_parent_theme_file_uri( 'assets/css/button-outline.css' ),
+				'src'    => get_theme_file_uri( 'assets/css/button-outline.css' ),
 				'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
-				'path'   => get_parent_theme_file_path( 'assets/css/button-outline.css' ),
+				'path'   => get_theme_file_path( 'assets/css/button-outline.css' ),
 			)
 		);
 	}

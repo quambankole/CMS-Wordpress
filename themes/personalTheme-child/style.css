@@ -15,9 +15,9 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style
 */
 
 body {
-    background-color: rgb(224, 106, 51);
+    background-color: #38629F;
 }
 
 h1, h2, h3, p {
-    color: rgb(27, 202, 135);
+    color: whitesmoke;
 }

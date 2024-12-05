@@ -9,8 +9,16 @@
 // Enqueue child theme styles
 function child_wp_enqueue_scripts() {
     wp_enqueue_style(
-        'child-style', // Added quotes around the style handle
+        'child-style',
         get_stylesheet_uri()
     );
+    
+    if ( is_user_logged_in() ) {
+        wp_enqueue_style(
+            'app-style', 
+            get_stylesheet_directory_uri() . '/assets/css/app.css'
+        );
+    }
+    
 }
-add_action( 'wp_enqueue_scripts', 'child_wp_enqueue_scripts' );
+add_action('wp_enqueue_scripts', 'child_wp_enqueue_scripts');

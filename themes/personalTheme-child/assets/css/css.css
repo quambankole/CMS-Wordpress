@@ -1,0 +1,203 @@
+/* ?Homepage */
+/* Header */
+header > div.has-background {
+    background-color: #170046 !important;
+}
+
+/* Footer */
+footer > div.has-background  {
+    background-color: #170046 !important;
+}
+
+/* Body */
+body{
+    background-color: rgb(226, 79, 11);
+    color: black !important;
+}
+
+/* Home page title */
+.has-base-2-color {
+    color: #000000 !important;
+}
+
+/* Texts */
+h1, h2, h3, p {
+    color: black;
+}
+
+/* Footer texts */
+p.has-text-align-center {
+    text-align: center;
+    color: rgb(27, 23, 23);
+}
+
+/* link text */
+a.wp-block-post-excerpt__more-link {
+    color: black;
+}
+a.wp-block-post-excerpt__more-link:hover {
+    color: rgb(255, 0, 0);
+}
+
+/* Figure caption */
+figcaption.wp-element-caption {
+    color: black;
+}
+
+/* Our services content */
+.wp-block-media-text.is-stacked-on-mobile.has-base-2-color.has-text-color.has-background.has-link-color.wp-elements-043264f437967b3e07b6d48050d436f6 {
+    background-color: #f6ff7b !important;
+    border: #000000 solid 3px;
+}
+.wp-block-media-text.is-stacked-on-mobile.has-base-2-color.has-text-color.has-background.has-link-color.wp-elements-043264f437967b3e07b6d48050d436f6 img {
+    border-right: black solid 3px;
+}
+.wp-block-media-text.has-media-on-the-right.is-stacked-on-mobile.has-base-2-color.has-text-color.has-background.has-link-color.wp-elements-40b0453b0b2b71b204ff782a48081bcf {
+    background-color: #7abfff !important;
+    border: #000000 solid 3px;
+}
+.wp-block-media-text.has-media-on-the-right.is-stacked-on-mobile.has-base-2-color.has-text-color.has-background.has-link-color.wp-elements-89a1e0bbf6cb494a73f02c920b89dd85 {
+    background-color: #7aff90 !important;
+    border: #000000 solid 3px;
+}
+.wp-block-media-text.is-stacked-on-mobile.has-base-2-color.has-text-color.has-background.has-link-color.wp-elements-099f5a5460ffec818cc9e3faab88371c {
+    background-color: #b581fd !important;
+    border: black solid 3px;
+    padding: 0%;
+}
+.wp-block-media-text.is-stacked-on-mobile.has-base-2-color.has-text-color.has-background.has-link-color.wp-elements-099f5a5460ffec818cc9e3faab88371c img {
+    border-right: black solid 3px;
+    height: 50vh;
+}
+
+/* Homepage button */
+.wp-block-button__link.wp-element-button {
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.wp-block-button__link.wp-element-button:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: rgb(0, 27, 115) solid 2px;
+}
+
+/* Pagination */
+
+.wp-block-query-pagination-next {
+    color: black;
+}
+.wp-block-query-pagination-previous {
+    color: black;
+}
+
+
+/*? About page */
+/* Main content */
+.has-contrast-2-background-color.has-background {
+    background-color: #243e86 !important;
+    color: white !important;
+    padding: 5% !important;
+    border-radius: 3px !important;
+}
+
+/*? Blog page */
+/* Welcome heading */
+.wp-block-heading.has-text-align-center.is-style-default.has-background.has-x-large-font-size {
+    background-color: #ff6074 !important;
+}
+
+/* Text */
+.wp-block-group.has-global-padding.is-layout-constrained.wp-container-core-group-is-layout-5.wp-block-group-is-layout-constrained P{
+    color: black !important;
+}
+
+/* Calender */
+/* Calender head background */
+:where(.wp-block-calendar table:not(.has-background) th){
+    background: #fff;
+}
+/* Calender text */
+.wp-block-calendar table.has-text-color th{
+    color:#243e86;
+}
+/* Calender background */
+#wp-calendar{
+    background-color: #ff6074;
+}
+
+/* Navigation */
+.wp-calendar-nav-prev a {
+    color: black !important;
+}
+
+/* Post page */
+a:where(:not(.wp-element-button)) {
+    color: black;
+}
+.wp-container-core-post-template-is-layout-1 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+/*? Contact page*/
+.wp-block-group.has-base-2-color.has-text-color.has-background.has-link-color.wp-elements-e07668afcc7a37c24479ce5997deec63.has-global-padding.is-layout-constrained.wp-container-core-group-is-layout-6.wp-block-group-is-layout-constrained p {
+    color: white;
+}
+.wp-block-group.has-base-2-color.has-text-color.has-background.has-link-color.wp-elements-b7d764f87a6a2e530d6730f6beb0ea72.has-global-padding.is-layout-constrained.wp-container-core-group-is-layout-6.wp-block-group-is-layout-constrained {
+    background-color: #ffffff !important;
+    border: black solid 2px !important;
+    margin-top: 60px !important;
+}
+
+
+/*?Posts */
+/* Body */
+.wp-block-group.alignfull.has-background.is-layout-flow.wp-block-group-is-layout-flow {
+    background-color: #feffd7 !important;
+    margin-bottom: 0;
+}
+/* Helpline */
+.wp-block-group.has-background.has-global-padding.is-layout-constrained.wp-container-core-group-is-layout-9.wp-block-group-is-layout-constrained {
+    background-color: rgb(255, 123, 123) !important;
+    border: solid 2px black !important;
+}
+
+/* Helpline button */
+.wp-block-button__link.has-contrast-color.has-base-2-background-color.has-text-color.has-background.has-link-color.wp-element-button {
+    background-color: #ffffff!important;
+    border: rgb(0, 27, 115) solid 2px!important;
+    transition: background-color 0.3s ease, color 0.3s ease!important;
+}
+.wp-block-button__link.has-contrast-color.has-base-2-background-color.has-text-color.has-background.has-link-color.wp-element-button:hover {
+    background-color: #ffd3d3 !important;
+    color: rgb(0, 0, 0)!important;
+    border: rgb(0, 27, 115) solid 2px!important;
+}
+
+/* Post link */
+div > .taxonomy-category.wp-block-post-terms a {
+    color: black !important;
+}
+/* Post authour name */
+div > .wp-block-post-author-name a {
+    color: black !important;
+}
+
+/* Post table */
+.has-contrast-color.has-text-color.has-background.has-link-color.has-fixed-layout {
+    background-color: rgb(255, 123, 123) !important;
+}
+
+/* Testimonial */
+.wp-block-quote.has-background.is-layout-flow.wp-block-quote-is-layout-flow {
+    background-color: white !important; 
+    border: 2px solid black !important;
+    font-size: 25px !important;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+
+
+

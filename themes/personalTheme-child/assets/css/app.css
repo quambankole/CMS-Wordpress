@@ -10,3 +10,11 @@ body{
 h1, h2, h3, p {
     color: rgb(255, 255, 255);
 }
+
+.wp-block-quote.has-background.is-layout-flow.wp-block-quote-is-layout-flow {
+    background-color: white !important; 
+    border: 2px solid rgb(62, 62, 62) !important;
+    font-size: 25px !important;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}

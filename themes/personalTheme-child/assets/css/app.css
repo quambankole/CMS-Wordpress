@@ -6,3 +6,7 @@ body{
     background-color: rgb(226, 79, 11);
     color: rgb(232, 232, 232) !important;
 }
+
+h1, h2, h3, p {
+    color: rgb(198, 198, 198);
+}

@@ -23,8 +23,9 @@ div > .wp-block-post-author-name a {
     color: rgb(9, 144, 248) !important;
 }
 
-.taxonomy-post_tag .is-style-pill .wp-block-post-terms > div{
-    width: 2rem;
-    height: 1rem;
-    background-color:rgb(9, 144, 248)  ;
+.taxonomy-post_tag > a{
+    width: 6rem;
+    background-color:rgb(9, 144, 248) ;
+    text-align: center;
+    margin: auto;
 }

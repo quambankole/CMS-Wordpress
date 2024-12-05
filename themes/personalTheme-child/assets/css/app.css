@@ -39,3 +39,9 @@ div > .wp-block-post-author-name a {
     color: rgb(255, 255, 255);
     font-size: 2rem;
 }
+
+.wp-block-button__link {
+    width: 20rem;
+    margin: auto;
+    justify-content: center;
+}

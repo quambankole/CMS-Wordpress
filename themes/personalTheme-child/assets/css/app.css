@@ -45,3 +45,7 @@ div > .wp-block-post-author-name a {
     margin: auto;
     justify-content: center;
 }
+
+.wp-block-buttons {
+    justify-content: center;
+}

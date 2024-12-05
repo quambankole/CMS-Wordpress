@@ -49,3 +49,10 @@ div > .wp-block-post-author-name a {
 .wp-block-buttons {
     justify-content: center;
 }
+
+
+.wp-block-post-featured-image{
+    width:100px;
+    height:auto;
+    object-fit: contain;
+}

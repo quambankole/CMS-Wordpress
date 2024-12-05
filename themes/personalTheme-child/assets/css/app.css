@@ -52,14 +52,14 @@ div > .wp-block-post-author-name a {
 
 
 .wp-block-post-featured-image{
-    width:100px;
+    width:200px;
     height:auto;
     object-fit: contain;
 }
 
 .entry-content>.wp-block-image {
 display: flex;
-justify-content: center; /* Centers the entire image block horizontally */
+justify-content: center; 
 align-items: center; 
 }
 

@@ -13,8 +13,12 @@ h1, h2, h3, p {
 
 .wp-block-quote.has-background.is-layout-flow.wp-block-quote-is-layout-flow {
     background-color: white !important; 
-    border: 2px solid rgb(62, 62, 62) !important;
-    font-size: 25px !important;
+    border: 4px solid rgb(62, 62, 62) !important;
+    font-size: 1.5rem !important;
     margin-top: 5vh;
     margin-bottom: 5vh;
+}
+
+div > .wp-block-post-author-name a {
+    color: rgb(53, 53, 53) !important;
 }

@@ -56,3 +56,14 @@ div > .wp-block-post-author-name a {
     height:auto;
     object-fit: contain;
 }
+
+.entry-content>.wp-block-image {
+display: flex;
+justify-content: center; /* Centers the entire image block horizontally */
+align-items: center; 
+}
+
+.wp-block-image > figure{
+    justify-content: center;
+    align-items: center;
+}
